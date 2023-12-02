@@ -37,7 +37,7 @@ code= "https://github.com/codeliterature/Project-overseas-react"
            img="https://i.imgur.com/0e8Lvrf.jpg"
            title="previous Portfolio"
            tech="HTML CSS JS"
-           link="https://codeliterature.netlify.app/"
+           link="https://code-literature.netlify.app/"
          code= "https://github.com/codeliterature/CodeLiterature-Portfolio"
          />
          <ProjectCard
@@ -55,7 +55,7 @@ code= "https://github.com/codeliterature/Project-overseas-react"
          code= "https://github.com/codeliterature/blog-site-vr.1"
          />
          <ProjectCard
-           img="/dark.png"
+           img="https://i.imgur.com/qCYGJ1U.jpg"
            title="Keeper App Clone"
            tech="REACT MaterialUI CSS"
            link="https://www.google.com"

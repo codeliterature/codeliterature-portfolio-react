@@ -9,6 +9,9 @@ import Techno from './components/techno';
 import About from './components/About';
 import Projects from './components/Projects'
 import Footer from './components/Footer';
+ 
+import dark from "../public/dark.png";
+import light from '../public/light.png';
 
 
 function App() {
@@ -31,7 +34,7 @@ function App() {
 
   });
 
-  const img = isDark ? "/dark.png" : "/light.png"
+  const img = isDark ? dark : light
   
   const width = window.innerWidth;
 
