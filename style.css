@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+img {
+  pointer-events: none;
+  
+}
+@tailwind utilities;
+
+@layer utilities {
+    .none {
+      background-color: transparent;
+    }
+}
