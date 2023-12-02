@@ -31,7 +31,7 @@ function App() {
 
   });
 
-  const img = isDark ? "./dark.png" : "./light.png"
+  const img = isDark ? "/dark.png" : "/light.png"
   
   const width = window.innerWidth;
 
