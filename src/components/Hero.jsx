@@ -39,8 +39,8 @@ function Hero(props) {
           
       </div>
       <div className="justify-self-end">
-        <button className="dark:bg-customColor px-3 py-2 text-black rounded bg-primaryColor dark:hover:bg-opacity-0 hover:border hover:border-1px dark:hover:border-customColor hover:border-primaryColor dark:hover:text-white hover:bg-opacity-0 duration-200 ease-in" onClick={()=>{setOpen(true)}}>Contact Us</button>
-        <Dialog open={isOpen} onClose={()=> {setOpen(false)}}>
+        <button className="dark:bg-customColor px-3 py-2 text-black rounded bg-primaryColor dark:hover:bg-opacity-0 hover:border hover:border-1px dark:hover:border-customColor hover:border-primaryColor dark:hover:text-white hover:bg-opacity-0 duration-200 ease-in" onClick={()=>{setOpen(true)}}><a href="mailto:codeliterature1@gmail.com">Contact Us</a></button>
+        {/* <Dialog open={isOpen} onClose={()=> {setOpen(false)}}>
         <DialogContent className="rounded">
           
           <div className=" w-[220px] flex flex-col">
@@ -54,7 +54,7 @@ function Hero(props) {
         </form>
           </div> 
         </DialogContent>
-          </Dialog>
+          </Dialog> */}
         </div>
         </div>
   );
