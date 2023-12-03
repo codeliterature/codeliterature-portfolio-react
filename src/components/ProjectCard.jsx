@@ -5,7 +5,7 @@ function ProjectCard (props) {
     <div className="flex flex-col my-2 border border-1px rounded w-[280px] m-auto ">
 
       <div className="p-2">
-      <img src={props.img} alt="project image" className="h-[200px] w-[100%] rounded bg-cover" />
+      <img src={props.img} alt="project image" className="h-[200px] w-[100%] rounded object-cover" />
       </div>
       
       <div className="flex flex-col space-between p-2">

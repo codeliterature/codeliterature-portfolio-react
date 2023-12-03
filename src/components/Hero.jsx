@@ -45,10 +45,10 @@ function Hero(props) {
           
           <div className=" w-[220px] flex flex-col">
             
-            <form action="" className="flex flex-col space-y-3">
-            <input type="text" placeholder="Name" required className="bg-transparent border-b-2 border-customColor invalid:border-red-500 w-full p-2 focus:outline-none" />
-              <input type="email" placeholder="Email" required className="bg-transparent border-b-2 border-customColor invalid:border-red-500 w-full p-2 focus:outline-none" onChange={handleInput} />
-              <textarea className="bg-transparent border-b-2 border-customColor w-full invalid:border-red-500 focus:outline-none" required placeholder="Enter Your Message Here" cols="6" rows="5">
+            <form className="flex flex-col space-y-3" Netlify name="contact" method="POST">
+            <input name="name" type="text" placeholder="Name" required className="bg-transparent border-b-2 border-customColor invalid:border-red-500 w-full p-2 focus:outline-none" />
+              <input name="email" type="email" placeholder="Email" required className="bg-transparent border-b-2 border-customColor invalid:border-red-500 w-full p-2 focus:outline-none" onChange={handleInput} />
+              <textarea className="bg-transparent border-b-2 border-customColor w-full invalid:border-red-500 focus:outline-none" required placeholder="Enter Your Message Here" cols="6" rows="5" name="message">
               </textarea>
               <button type="submit" className="dark:bg-customColor px-3 py-2 text-black rounded bg-primaryColor" >Submit</button>
         </form>

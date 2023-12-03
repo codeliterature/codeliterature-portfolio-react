@@ -10,8 +10,8 @@ import About from './components/About';
 import Projects from './components/Projects'
 import Footer from './components/Footer';
  
-import dark from "../public/dark.png";
-import light from '../public/light.png';
+import dark from "/images/dark.webp";
+import light from '/images/light.webp';
 
 
 function App() {
@@ -47,7 +47,7 @@ function App() {
        <About />
        <Techno />
        <Projects />
-<Footer />
+        <Footer />
 
      </main>
      </ThemeProvider>

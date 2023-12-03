@@ -55,7 +55,7 @@ code= "https://github.com/codeliterature/Project-overseas-react"
          code= "https://github.com/codeliterature/blog-site-vr.1"
          />
          <ProjectCard
-           img="https://i.imgur.com/qCYGJ1U.jpg"
+           img="https://picsum.photos/200/300.webp"
            title="Keeper App Clone"
            tech="REACT MaterialUI CSS"
            link="https://www.google.com"
