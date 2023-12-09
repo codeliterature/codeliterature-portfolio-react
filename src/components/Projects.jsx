@@ -55,11 +55,11 @@ code= "https://github.com/codeliterature/Project-overseas-react"
          code= "https://github.com/codeliterature/blog-site-vr.1"
          />
          <ProjectCard
-           img="https://picsum.photos/200/300.webp"
+           img="https://play-lh.googleusercontent.com/9bJoeaPbGTB8Tz_h4N-p-6ReRd8vSS-frZb2tmJulaGIoTKElKj3zpmcFJvnS96ANZP5"
            title="Keeper App Clone"
            tech="REACT MaterialUI CSS"
-           link="https://www.google.com"
-         code= "https://github.com/codeliterature"
+           link="https://keeperapp-clone.netlify.app/"
+         code= "https://github.com/codeliterature/KeeperAppClone"
          />
          </div>
      </div>
