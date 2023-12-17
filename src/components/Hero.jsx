@@ -29,8 +29,8 @@ function Hero(props) {
   return (
     <div className="p-4 flex flex-wrap space-y-2 items-center" id="home">
       <img src={props.img} alt="CodeLiterature Logo" className="h-[300px]" />
-      <div className="flex flex-col">
-        <h1 className="text-left text-2xl dark:text-customColor font-bold text-primaryColor">Code Literature</h1>
+      <div className="flex flex-col font-semibold">
+        <h1 className="text-left text-2xl dark:text-customColor font-extrabold text-primaryColor">Code Literature</h1>
         <p>Your very own Coding Grammar</p>
           <p>Build Innovative, React based Front-End</p>
           <p>Convert your boring old HTML, CSS, JS into React powered Front-End</p>

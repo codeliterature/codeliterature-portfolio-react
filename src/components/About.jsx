@@ -4,7 +4,7 @@ function About() {
   return(
     <div className="p-4 flex flex-col space-y-2" id="about">
       <h1 className="text-center text-2xl dark:text-customColor text-primaryColor font-bold">About Us</h1>
-      <div className="flex flex-col space-y-2">
+      <div className="flex flex-col space-y-2 font-medium">
       <p className="text-justify">
         Welcome to <span className="text-primaryColor dark:text-customColor font-bold">CodeLiterature!</span>
       </p>

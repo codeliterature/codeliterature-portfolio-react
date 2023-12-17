@@ -53,7 +53,7 @@ function Navbar({darkMode}) {
       <span onClick={handleClick} className="cursor-pointer">{initialState ? <i className="fa-solid fa-moon"></i> : <i className="fa-solid fa-sun"></i>}</span>
         <div className="flex space-x-3 items-center justify-center text-2xl">
         <a href="https://github.com/codeliterature" target="_blank"><i className="fa-brands fa-github"></i></a>
-          <a href="https://instagram.com/codeliterature" target="_blank"><i className="fa-brands fa-instagram"></i></a><a href="https://twitter.com/CodeLiterature" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://instagram.com/codeliterature" target="_blank"><i className="fa-brands fa-instagram"></i></a><a href="https://twitter.com/CodeLiterature" target="_blank"><i className="fa-brands fa-x-twitter"></i></a>
         </div>
         </ul>
         </DialogContent>
