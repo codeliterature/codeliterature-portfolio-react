@@ -16,7 +16,7 @@ function ProjectCard (props) {
           </div>
         <div className="flex space-x-2 items-center py-2">
       <a href={props.code} target="_blank"><i className="fa-brands fa-square-github text-[48px]"></i></a>
-      <a href={props.link} target="_blank" className="border border-1px rounded p-2 border-gray-600 text-[17px]">Visit the project</a>
+      <a href={props.link} target="_blank" className="border border-1px rounded p-2 border-gray-600 text-[17px] dark:hover:bg-customColor hover:text-black hover:border hover:border-1px dark:hover:border-customColor hover:border-primaryColor hover:bg-primaryColor duration-200 ease-in">Visit the project</a>
       </div>
         
         </div>
