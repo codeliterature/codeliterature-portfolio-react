@@ -5,7 +5,7 @@ function Card(props) {
       return `${ pre }+${ new Date().getTime() }`;
   }
   return (
-    <div className="p-2 w-[280px] mx-auto rounded-lg border border-1px border-gray-300">
+    <div className="p-2 w-[280px] mx-auto rounded-lg border border-1px border-gray-300 ">
     <h1 className="text-xl  p-2 font-bold dark:text-customColor text-primaryColor">{props.heading}</h1>
       <div className="flex flex-wrap">
         {props.array.map((item, index)=> {
