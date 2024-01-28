@@ -7,7 +7,7 @@ function Footer() {
    return(
    <div>
       <footer className="m-2">
-        <p className="text-[14px] text-center">Copyright &#169; 2023 -  <span className="text-primaryColor dark:text-customColor">CodeLiterature</span>.All Rights Reserved.</p>
+        <p className="text-[14px] text-center">Copyright &#169; {year} -  <span className="text-primaryColor dark:text-customColor">CodeLiterature</span>.All Rights Reserved.</p>
       </footer>
    </div>
     );
