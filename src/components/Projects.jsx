@@ -5,6 +5,13 @@ function Projects() {
      <div className="m-2" id="project">
        <h1 className="text-center text-2xl dark:text-customColor my-3 m-auto text-primaryColor font-bold">Our Projects</h1>
        <div className="flex flex-wrap">
+         <ProjectCard
+           img="https://i.imgur.com/WYHA1Sr.jpg"
+           title="CL Utils"
+           tech="React tailwindCSS chart.js"
+           link="https://cl-utils.netlify.app/"
+           code="https://github.com/codeliterature/CL-utils"
+         />
        <ProjectCard
          img="https://i.imgur.com/FP5N132.jpg"
          title="Project Overseas (REACTjs)"
